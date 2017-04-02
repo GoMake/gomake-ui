@@ -1,3 +1,35 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+  <button md-icon-button>
+    <md-icon>menu</md-icon>
+  </button>
+  <span>goMake: Admin</span>
+  <span flex></span>
+  <button md-icon-button>
+    <md-icon>more_vert</md-icon>
+  </button>
+</md-toolbar>
+<!-- Basic Card -->
+<md-card>
+  <md-card-title>Flights
+    <button md-fab color="primary" style="float: right;">
+      <md-icon>add</md-icon>
+    </button>
+  </md-card-title>
+
+  <md-card-subtitle>Add, Edit, and Remove Flights</md-card-subtitle>
+  <md-divider></md-divider>
+  <md-card-content>
+    <td-data-table
+    [data]="basicData"
+    [columns]="columns">
+    <template tdDataTableTemplate="delete" let-value="value" let-row="row" let-column="column">
+      <div layout="row" layout-align="center center">
+        <md-icon>delete</md-icon>
+      </div>
+    </template>
+  </td-data-table>
+  <md-card-actions>
+  </md-card-actions>
+  </md-card-content>
+  <md-divider></md-divider>
+</md-card>
