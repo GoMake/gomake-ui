@@ -2,6 +2,7 @@
   "name": "gomake-ui",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Jonathan Barton <> ,Morris Singer <>,Neha Abrol <nehaabrol87@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
