@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "GOMAKE",
   "description": "The goMake Flight UI provides flight related information and realtime telemetry data for goMake high altitude balloon and other project launches.",
-  "author" : "Jonathan Barton <>, Morris Singer <> , Neha Abrol <nehaabrol87@gmail.com>",
+  "author": "Jonathan Barton <>, Morris Singer <> , Neha Abrol <nehaabrol87@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -22,6 +22,7 @@
     "@angular/platform-browser": "^2.4.0",
     "@angular/platform-browser-dynamic": "^2.4.0",
     "@angular/router": "^3.4.0",
+    "@covalent/core": "^1.0.0-beta.2-1",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.7.6"
